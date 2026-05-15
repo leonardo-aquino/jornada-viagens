@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
@@ -15,8 +16,27 @@ header {
 
 nav {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 .navigation-menu {
   margin-top: 24px;
+}
+
+ul{
+  padding-left: 10%;
+  list-style: none;
+}
+
+li{
+  margin: 16px 0;
+}
+
+ul ,a {
+  color: var(--text-secundary-color);
+  text-decoration: none;
 }
