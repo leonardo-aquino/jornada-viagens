@@ -74,7 +74,7 @@ section.bottom-hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0 0 24px;
+  
 }
 .content-text {
   font-size: 20px;
@@ -94,6 +94,7 @@ section.bottom-hero {
   text-decoration: none;
   line-height: 64px;
   text-align: center;
+  margin-top: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -111,6 +112,7 @@ section.bottom-hero {
 @media screen and (min-width: 1024px) {
   section {
     width: 900px;
+    
   }
   .button:hover {
     background-color: var(--primary-color);
